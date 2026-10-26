@@ -56,14 +56,9 @@ source("02_m4_extension.R")     # M4
 source("03_m5_extension.R")     # M5
 ```
 
-Notes:
-
-- In `01_m3_replication.R`, set `DROP_SEASONAL <- TRUE` to reproduce the 650 non-seasonal monthly series used in the main tables of the paper; the default (`FALSE`) uses all 1,428 monthly M3 series, as reported in the appendix.
-- The M4 and M5 runs on the full datasets are computationally heavy. `SAMPLE_N` and `STAT_USE` can be adjusted for quicker test runs.
-
 ## Citation
 
-If you use this code, please cite the paper:
+If you wish to cite the paper, please use:
 
 ```bibtex
 @article{theodorou2026benefits,
