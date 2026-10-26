@@ -1,0 +1,27 @@
+# R session files
+.Rhistory
+.RData
+.Rapp.history
+.Rproj.user/
+*.Rproj
+
+# Data (downloaded by the scripts, never committed)
+m5_data/
+M4.rda
+*.zip
+*.rda
+*.RData
+
+# Results and outputs
+results_*.csv
+citations_*.csv
+word_frequencies.csv
+*.xlsx
+*.png
+*.tif
+*.jpg
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
